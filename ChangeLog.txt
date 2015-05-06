@@ -1,0 +1,4 @@
+Alarm Manager Adobe Air Native Extension
+
+
+May 06, 2015	>> V1.0: 	beginning of the journey!
