@@ -8,11 +8,11 @@
     <movie fps="30" />
     <movie width="480" />
     <movie height="762" />
-    <movie version="4" />
+    <movie version="17" />
     <movie minorVersion="0" />
     <movie platform="AIR Mobile" />
     <movie background="#FFFFFF" />
-    <movie preferredSDK="Flex 4.6.0, AIR 15.0;4.6.0, 15.0;" />
+    <movie preferredSDK="Flex 4.6.0, AIR 19.0;4.6.0, 19.0;" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
@@ -59,7 +59,6 @@
     <element path="lib\StageWebViewBridge.swc" />
     <element path="lib\AIR3Extension.ane" />
     <element path="lib\openCV.ane" />
-    <element path="lib\ar.ane" />
     <element path="lib\downloadManager.ane" />
     <element path="lib\webView.ane" />
     <element path="lib\alarmManager.ane" />

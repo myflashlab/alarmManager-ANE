@@ -1,4 +1,4 @@
-# Alarm Manager ANE
+# Alarm Manager ANE V1.9 for Android
 Alarm manager ANE is a very simple to use extension library which lets you set a time using the Date API in AS3 and setup a task to be executed as soon as the alarm goes off! this alarm manager extension is configured wisely enough so that even if the user reboots his/her device, the extension will be notified and will make sure that the task will run as expected!
 
 with the current first release of this extension we are supporting Android only but we are working on the iOS version too and we will update the extension as soon as it’s ready but it’s worthy to mention that you cannot be much creative with the iOS version of this extension! the reason is simple, it’s because iOS has limited dev access to background processes. you may learn more about this on [apple here] (https://developer.apple.com/library/ios/documentation/iPhone/Reference/UILocalNotification_Class/). So, with the coming soon iOS version of this extension we will support UILocalNotification which sends local notifications to iOS based on a defined date and time. That’s the best you can do with iOS when it comes to Alarm Management!
@@ -13,12 +13,12 @@ you may like to see the ANE in action? check this out: https://github.com/myflas
 
 # AS3 API:
 ```actionscript
-import com.doitflash.air.extensions.timerTask.Alarm
-import com.doitflash.air.extensions.timerTask.AlarmEvent;
-import com.doitflash.air.extensions.timerTask.alarmTypes.Alarm_Notification;
-import com.doitflash.air.extensions.timerTask.alarmTypes.Alarm_ShowToast;
-import com.doitflash.air.extensions.timerTask.alarmTypes.Alarm_SimpleDispatch;
-import com.doitflash.air.extensions.timerTask.alarmTypes.alarm_Notification.TouchActionObject;
+import com.myflashlab.air.extensions.timerTask.Alarm
+import com.myflashlab.air.extensions.timerTask.AlarmEvent;
+import com.myflashlab.air.extensions.timerTask.alarmTypes.Alarm_Notification;
+import com.myflashlab.air.extensions.timerTask.alarmTypes.Alarm_ShowToast;
+import com.myflashlab.air.extensions.timerTask.alarmTypes.Alarm_SimpleDispatch;
+import com.myflashlab.air.extensions.timerTask.alarmTypes.alarm_Notification.TouchActionObject;
 
 // setup touch action objects
 var actionObj1:TouchActionObject = new TouchActionObject();

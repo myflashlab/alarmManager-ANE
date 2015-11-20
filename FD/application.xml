@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <application xmlns="http://ns.adobe.com/air/application/16.0">
   <id>com.doitflash.exAlarm</id>
-  <versionNumber>1.0</versionNumber>
+  <versionNumber>1.9</versionNumber>
   <supportedProfiles>mobileDevice</supportedProfiles>
   <filename>exAlarm</filename>
-  <name>exAlarm</name>
+  <name>Alarm manager</name>
   <android>
     <manifestAdditions>
 		<![CDATA[<manifest android:installLocation="auto">
@@ -92,6 +92,6 @@
     <image512x512>icons/icon_512.png</image512x512>
   </icon>
   <extensions>
-    <extensionID>com.doitflash.air.extensions.alarm</extensionID>
+    <extensionID>com.myflashlab.air.extensions.alarm</extensionID>
   </extensions>
 </application>

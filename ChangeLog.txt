@@ -2,3 +2,4 @@ Alarm Manager Adobe Air Native Extension
 
 
 May 06, 2015	>> V1.0: 	beginning of the journey!
+Nov 03, 2015	>> V1.9:	doitflash devs merged into MyFLashLab Team.
