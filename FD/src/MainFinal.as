@@ -17,8 +17,6 @@ package
 	
 	import com.doitflash.text.modules.MySprite;
 	
-	import com.doitflash.tools.sizeControl.FileSizeConvertor;
-	
 	import com.luaye.console.C;
 	
 	import flash.desktop.NativeApplication;
@@ -164,6 +162,9 @@ package
 		{
 			// to use android default icons, find their constent values here:
 			// http://developer.android.com/reference/android/R.drawable.html
+			
+			// required only if you are a member of the club
+			Alarm.clubId = "paypal-address-you-used-to-join-the-club";
 			
 			_ex = new Alarm();
 			_ex.addEventListener(AlarmEvent.ALARM_SIMPLE_DISPATCH, onReceivedDispatch); // required only if you are setting a SIMPLE_DISPATCH task
