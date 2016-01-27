@@ -1,17 +1,13 @@
 # Alarm Manager ANE V1.9.1 for Android
 Alarm manager ANE is a very simple to use extension library which lets you set a time using the Date API in AS3 and setup a task to be executed as soon as the alarm goes off! this alarm manager extension is configured wisely enough so that even if the user reboots his/her device, the extension will be notified and will make sure that the task will run as expected!
 
-with the current first release of this extension we are supporting Android only but we are working on the iOS version too and we will update the extension as soon as it’s ready but it’s worthy to mention that you cannot be much creative with the iOS version of this extension! the reason is simple, it’s because iOS has limited dev access to background processes. you may learn more about this on [apple here] (https://developer.apple.com/library/ios/documentation/iPhone/Reference/UILocalNotification_Class/). So, with the coming soon iOS version of this extension we will support UILocalNotification which sends local notifications to iOS based on a defined date and time. That’s the best you can do with iOS when it comes to Alarm Management!
+# Demo .apk
+you may like to see the ANE in action? [Download demo .apk](https://github.com/myflashlab/alarmManager-ANE/tree/master/FD/dist)
 
-checkout here for the commercial version: http://www.myflashlabs.com/product/alarm-manager-ane-adobe-air-native-extension/
+**NOTICE**: the demo ANE works only after you hit the "OK" button in the dialog which opens. in your tests make sure that you are NOT calling other ANE methods prior to hitting the "OK" button.
+[Download the ANE](https://github.com/myflashlab/alarmManager-ANE/tree/master/FD/lib)
 
-![Alarm Manager ANE](http://myappsnippet.com/wp-content/uploads/2015/05/alarm-manager-adobe-air-extension_preview.jpg)
-
-you may like to see the ANE in action? check this out: https://github.com/myflashlab/alarmManager-ANE/tree/master/FD/dist
-
-**NOTICE: the demo ANE works only after you hit the "OK" button in the dialog which opens. in your tests make sure that you are NOT calling other ANE methods prior to hitting the "OK" button.**
-
-# AS3 API:
+# Air Usage
 ```actionscript
 import com.myflashlab.air.extensions.timerTask.Alarm
 import com.myflashlab.air.extensions.timerTask.AlarmEvent;
@@ -71,8 +67,7 @@ var id:int = _ex.setAlarm(alarmTask.data);
 //_ex.cancelAlarm(id);
 ```
 
-For the ANE to work as expected, make sure you are adding the required services and permissions to your .xml manifest file. below are the necessary changes to the manifest.
-
+# Air .xml manifest
 ```xml
 <uses-permission android:name="android.permission.VIBRATE" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -108,3 +103,28 @@ For the ANE to work as expected, make sure you are adding the required services 
 </application>
 ```
 
+# Requirements
+* Android SDK 10 or higher
+
+# Commercial Version
+http://www.myflashlabs.com/product/alarm-manager-ane-adobe-air-native-extension/
+
+![Alarm Manager ANE](http://www.myflashlabs.com/wp-content/uploads/2015/11/product_adobe-air-ane-alarm-manager-595x738.jpg)
+
+# Tech Details
+with the current first release of this extension we are supporting Android only but we are working on the iOS version too and we will update the extension as soon as it’s ready but it’s worthy to mention that you cannot be much creative with the iOS version of this extension! the reason is simple, it’s because iOS has limited dev access to background processes. you may learn more about this on [apple here] (https://developer.apple.com/library/ios/documentation/iPhone/Reference/UILocalNotification_Class/). So, with the coming soon iOS version of this extension we will support UILocalNotification which sends local notifications to iOS based on a defined date and time. That’s the best you can do with iOS when it comes to Alarm Management!
+
+# Tutorials
+[How to embed ANEs into **FlashBuilder**, **FlashCC** and **FlashDevelop**](https://www.youtube.com/watch?v=Oubsb_3F3ec&list=PL_mmSjScdnxnSDTMYb1iDX4LemhIJrt1O)  
+
+# Changelog
+*Dec 20, 2015 - V1.9.1*
+* minor bug fixes
+
+
+*Nov 03, 2015 - V1.9*
+* doitflash devs merged into MyFLashLab Team
+
+
+*May 06, 2015 - V1.0*
+* beginning of the journey!
