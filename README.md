@@ -1,6 +1,9 @@
 # Alarm Manager ANE V1.9.1 for Android
 Alarm manager ANE is a very simple to use extension library which lets you set a time using the Date API in AS3 and setup a task to be executed as soon as the alarm goes off! this alarm manager extension is configured wisely enough so that even if the user reboots his/her device, the extension will be notified and will make sure that the task will run as expected!
 
+# asdoc
+[find the latest asdoc for this ANE here.](http://myflashlab.github.io/asdoc/com/myflashlab/air/extensions/timerTask/package-detail.html)
+
 # Demo .apk
 you may like to see the ANE in action? [Download demo .apk](https://github.com/myflashlab/alarmManager-ANE/tree/master/FD/dist)
 
