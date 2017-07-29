@@ -1,3 +1,6 @@
+**NOTICE: This ANE is no longer managed. Instead you can use the [Scheduled Local Notification ANE](https://github.com/myflashlab/LocalNotification-ANE). We are leaving this repository as it is only for your reference.**
+
+
 # Alarm Manager ANE V1.9.1 for Android
 Alarm manager ANE is a very simple to use extension library which lets you set a time using the Date API in AS3 and setup a task to be executed as soon as the alarm goes off! this alarm manager extension is configured wisely enough so that even if the user reboots his/her device, the extension will be notified and will make sure that the task will run as expected!
 
@@ -115,7 +118,7 @@ http://www.myflashlabs.com/product/alarm-manager-ane-adobe-air-native-extension/
 ![Alarm Manager ANE](http://www.myflashlabs.com/wp-content/uploads/2015/11/product_adobe-air-ane-alarm-manager-595x738.jpg)
 
 # Tech Details
-with the current first release of this extension we are supporting Android only but we are working on the iOS version too and we will update the extension as soon as it’s ready but it’s worthy to mention that you cannot be much creative with the iOS version of this extension! the reason is simple, it’s because iOS has limited dev access to background processes. you may learn more about this on [apple here] (https://developer.apple.com/library/ios/documentation/iPhone/Reference/UILocalNotification_Class/). So, with the coming soon iOS version of this extension we will support UILocalNotification which sends local notifications to iOS based on a defined date and time. That’s the best you can do with iOS when it comes to Alarm Management!
+with the current first release of this extension we are supporting Android only but we are working on the iOS version too and we will update the extension as soon as it's ready but it's worthy to mention that you cannot be much creative with the iOS version of this extension! the reason is simple, it's because iOS has limited dev access to background processes. you may learn more about this on [apple here] (https://developer.apple.com/library/ios/documentation/iPhone/Reference/UILocalNotification_Class/). So, with the coming soon iOS version of this extension we will support UILocalNotification which sends local notifications to iOS based on a defined date and time. That's the best you can do with iOS when it comes to Alarm Management!
 
 # Tutorials
 [How to embed ANEs into **FlashBuilder**, **FlashCC** and **FlashDevelop**](https://www.youtube.com/watch?v=Oubsb_3F3ec&list=PL_mmSjScdnxnSDTMYb1iDX4LemhIJrt1O)  
